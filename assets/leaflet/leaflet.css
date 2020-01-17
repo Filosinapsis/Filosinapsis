@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
 /* required styles */
+
+:root {
+	--font-family-text: 'Roboto', sans-serif;
+}
 
 .leaflet-pane,
 .leaflet-tile,
@@ -415,7 +420,10 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .leaflet-container .leaflet-control-attribution {
     background: #fff;
     background: rgba(255, 255, 255, 0.7);
-    margin: 0;
+	margin: 0;
+	padding: 0.5rem;
+	font-size: 1rem;
+	font-family: var(--font-family-text);
 }
 .leaflet-control-attribution,
 .leaflet-control-scale-line {
@@ -427,10 +435,6 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 .leaflet-control-attribution a:hover {
     text-decoration: underline;
-}
-.leaflet-container .leaflet-control-attribution,
-.leaflet-container .leaflet-control-scale {
-    font-size: 11px;
 }
 .leaflet-left .leaflet-control-scale {
     margin-left: 5px;
