@@ -50,11 +50,11 @@ let iconMarker3 = L.icon({
 var sol = xy(175.2, 145.0);
 var mizar = xy(41.6, 130.1);
 var kruegerZ = xy(13.4, 56.5);
-var deneb = xy(218.7, 8.3);
-var marker2 = xy(30, 9);
-var marker3 = xy(60, -0.09);
-var marker4 = xy(100, 89);
-var marker5 = xy(99, 25);
+var deneb = xy(198.7, 100.3);
+var marker2 = xy(100, -89);
+var marker3 = xy(200, -0.09);
+var marker4 = xy(120, 79);
+var marker5 = xy(-10, -15);
 
 L.marker(sol, { icon: iconMarker3 })
     .addTo(PMap)
