@@ -22,11 +22,13 @@ var searchLayer = L.geoJson().addTo(PMap);
 //    }, 2000);
 // }, 4000);
 
+const attributionText =
+    '<span aria-label="Libro">📘</span> Filosinapsis | Desarrollado con <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>';
+
 L.tileLayer(``, {
     minZoom: 0,
     maxZoom: 10,
-    attribution:
-        'Map data &copy; <a href="https://www.host5.biz/">Host5 Hosting</a>©'
+    attribution: attributionText
 }).addTo(PMap);
 
 // let marker = L.marker([51.5, -0.09]).addTo(PMap)
