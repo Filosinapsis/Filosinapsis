@@ -5,6 +5,7 @@
 
 body {
     color: #333;
+    background-color: black;
 }
 
 p {
@@ -17,20 +18,24 @@ form {
 /* end base styles */
 
 #bg-selector {
-    font-size: 1em;
     font-style: italic;
     right: 1%;
     position: absolute;
-    top: 2%;
+    background-color: rgba(25, 25, 25, 0.85);
+    padding: 0.5rem 0.5rem;
+    border-radius: 50rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    display: flex;
 }
 .color {
     width: 24px;
     height: 24px;
-    border: 1px solid #555;
+    border: 0.1rem solid white;
+    border-radius: 100%;
     display: inline-block;
     margin: 0 0 0 0.2em;
     cursor: pointer;
-    padding: 2px;
+    padding: 0.4rem;
 }
 .color img {
     max-width: 100%;
@@ -40,8 +45,7 @@ form {
 .black {
     background-color: #000;
 }
-.gray,
-.picker {
+.gray {
     background-color: #eaeaea;
 }
 .white {
@@ -49,6 +53,9 @@ form {
 }
 .blue {
     background-color: #00529c;
+}
+.picker {
+    background-color: rgb(49, 49, 49);
 }
 #colorpicker {
     visibility: hidden;
