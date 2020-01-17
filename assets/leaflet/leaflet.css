@@ -259,6 +259,16 @@
     pointer-events: none;
 }
 
+.leaflet-marker-icon {
+    border-radius: 100%;
+    outline: none;
+    transition: 0.5s ease-in;
+}
+
+.leaflet-marker-icon:hover {
+    box-shadow: 0px 0px 4rem 1rem rgba(255, 255, 255, 0.8);
+}
+
 .leaflet-marker-icon.leaflet-interactive,
 .leaflet-image-layer.leaflet-interactive,
 .leaflet-pane > svg path.leaflet-interactive,
