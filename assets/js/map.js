@@ -1,3 +1,7 @@
+let mainTitle = 'Tema principal';
+mainTitleBox = document.getElementById('title');
+mainTitleBox.innerHTML = mainTitle;
+
 // JavaScript Document auto !important
 var yx = L.latLng;
 
