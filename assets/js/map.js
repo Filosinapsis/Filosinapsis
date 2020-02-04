@@ -27,7 +27,7 @@ var searchLayer = L.geoJson().addTo(PMap);
 // }, 4000);
 
 const attributionText =
-    '<span aria-label="Libro">📘</span> <strong>Filosinapsis</strong> | Desarrollado con <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>';
+    '<span aria-label="Libro">📘</span> <strong>Filosinapsis</strong>';
 
 L.tileLayer(``, {
     minZoom: 0,
