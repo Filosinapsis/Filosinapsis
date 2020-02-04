@@ -7790,39 +7790,40 @@ var Path = Layer.extend({
 	// @aka Path options
 	options: {
 		// @option stroke: Boolean = true
-		// Whether to draw stroke along the path. Set it to `false` to disable borders on polygons or circles.
+		// Si dibujar trazo (stroke) a lo largo del camino.
+		// Establézcalo en 'false' para deshabilitar bordes en polígonos o círculos.
 		stroke: true,
 
 		// @option color: String = '#3388ff'
-		// Stroke color
+		// Color del trazo
 		color: '#3388ff',
 
-		// @option weight: Number = 3
-		// Stroke width in pixels
+		// @option peso: Number = 3
+		// Ancho de trazo en píxeles
 		weight: 3,
 
 		// @option opacity: Number = 1.0
-		// Stroke opacity
+		// Opacidad/Transparencia del trazo
 		opacity: 1,
 
 		// @option lineCap: String= 'round'
-		// A string that defines [shape to be used at the end](https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linecap) of the stroke.
+		// Un string que define [forma para ser utilizada al final] (https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linecap) del trazo.
 		lineCap: 'round',
 
 		// @option lineJoin: String = 'round'
-		// A string that defines [shape to be used at the corners](https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linejoin) of the stroke.
+		// Un string que define [forma para usar en las esquinas](https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linejoin) del trazo.
 		lineJoin: 'round',
 
 		// @option dashArray: String = null
-		// A string that defines the stroke [dash pattern](https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-dasharray). Doesn't work on `Canvas`-powered layers in [some old browsers](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setLineDash#Browser_compatibility).
+		// Un string que define [patrón de guión](https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-dasharray). No funciona en `Canvas`-powered layers en [navegadores viejos](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setLineDash#Browser_compatibility).
 		dashArray: null,
 
 		// @option dashOffset: String = null
-		// A string that defines the [distance into the dash pattern to start the dash](https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-dashoffset). Doesn't work on `Canvas`-powered layers in [some old browsers](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setLineDash#Browser_compatibility).
+		// Un string que define [distancia al patrón del guión para comenzar el guión](https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-dashoffset). No funciona en `Canvas`-powered layers in [navegadores viejos](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/setLineDash#Browser_compatibility).
 		dashOffset: null,
 
 		// @option fill: Boolean = depends
-		// Whether to fill the path with color. Set it to `false` to disable filling on polygons or circles.
+		// Si llenar el camino con color. Establézcalo en 'false' para deshabilitar el relleno en polígonos o círculos.
 		fill: false,
 
 		// @option fillColor: String = *
