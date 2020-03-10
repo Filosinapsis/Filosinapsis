@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 /* required styles */
 
 :root {
@@ -266,7 +266,7 @@
 }
 
 .leaflet-marker-icon:hover {
-    box-shadow: 0px 0px 4rem 1rem rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 3.5rem 1rem rgba(255, 255, 255, 0.8);
 }
 
 .leaflet-marker-icon.leaflet-interactive,
@@ -498,7 +498,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
     text-align: left;
     border-radius: 12px;
     font-family: var(--font-family-text);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .leaflet-popup-content {
     margin: 13px 19px;
@@ -517,6 +517,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
     pointer-events: none;
 }
 .leaflet-popup-tip {
+    display: none;
     width: 17px;
     height: 17px;
     padding: 1px;
@@ -530,11 +531,12 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-    background: white;
-    color: #333;
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
     box-shadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.2);
 }
 .leaflet-container a.leaflet-popup-close-button {
+    display: none;
     position: absolute;
     top: 0;
     right: 0;
