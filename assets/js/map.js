@@ -78,32 +78,32 @@ let iconMarker3 = L.icon({
 });
 
 var sol = xy(175.2, -145.0);
-var mizar = xy(40, -119.1);
-var kruegerZ = xy(-70.4, -6.5);
+var Geometry = xy(40, -119.1);
+var Numbers = xy(-70.4, -6.5);
 var deneb = xy(198.7, -60.3);
-var marker2 = xy(100, -20);
-var marker3 = xy(300, -0.09);
-var marker4 = xy(250, -109);
+var AppliedMath = xy(100, -20);
+var AnalysisMath = xy(300, -0.09);
+var Algebra = xy(250, -109);
 var MainMath = xy(98, 105);
 var PureMath = xy(98, 205);
 
-L.marker(mizar, { icon: greenMarker })
+L.marker(Geometry, { icon: greenMarker })
     .addTo(PMap)
     .bindPopup('Geometría');
 
-L.marker(kruegerZ, { icon: yellowMarker })
+L.marker(Numbers, { icon: yellowMarker })
     .addTo(PMap)
     .bindPopup('Números');
 
-L.marker(marker2, { icon: whiteMarker })
+L.marker(AppliedMath, { icon: whiteMarker })
     .addTo(PMap)
     .bindPopup('Matemática aplicada');
 
-L.marker(marker3, { icon: iconMarker })
+L.marker(AnalysisMath, { icon: iconMarker })
     .addTo(PMap)
     .bindPopup('Análisis matemático');
 
-L.marker(marker4, { icon: skyblueMarker })
+L.marker(Algebra, { icon: skyblueMarker })
     .addTo(PMap)
     .bindPopup('Álgebra');
 
@@ -115,11 +115,11 @@ L.marker(PureMath, { icon: whiteMarker })
     .addTo(PMap)
     .bindPopup('Matemática Pura');
 
-var travel = L.polyline([marker2, mizar]).addTo(PMap);
-var travel = L.polyline([marker2, marker3]).addTo(PMap);
-var travel = L.polyline([marker4, marker2]).addTo(PMap);
-var travel = L.polyline([kruegerZ, marker2]).addTo(PMap);
-var travel = L.polyline([marker2, MainMath]).addTo(PMap);
+var travel = L.polyline([AppliedMath, Geometry]).addTo(PMap);
+var travel = L.polyline([AppliedMath, AnalysisMath]).addTo(PMap);
+var travel = L.polyline([Algebra, AppliedMath]).addTo(PMap);
+var travel = L.polyline([Numbers, AppliedMath]).addTo(PMap);
+var travel = L.polyline([AppliedMath, MainMath]).addTo(PMap);
 var travel = L.polyline([PureMath, MainMath]).addTo(PMap);
 
 PMap.doubleClickZoom.disable();
