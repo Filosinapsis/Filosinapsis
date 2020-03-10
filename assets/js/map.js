@@ -97,7 +97,7 @@ L.marker(kruegerZ, { icon: yellowMarker })
 
 L.marker(marker2, { icon: whiteMarker })
     .addTo(PMap)
-    .bindPopup('Matemática aplicada');
+    .bindPopup('Matemática Aplicada');
 
 L.marker(marker3, { icon: iconMarker })
     .addTo(PMap)
@@ -109,7 +109,7 @@ L.marker(marker4, { icon: skyblueMarker })
 
 L.marker(MainMath, { icon: whiteBigMarker })
     .addTo(PMap)
-    .bindPopup('Matemática Aplicada');
+    .bindPopup('Matemática');
 
 L.marker(PureMath, { icon: whiteMarker })
     .addTo(PMap)
