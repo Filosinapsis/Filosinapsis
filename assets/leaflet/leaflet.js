@@ -9770,7 +9770,7 @@ var Popup = DivOverlay.extend({
 		// @option autoClose: Boolean = true
 		// Set it to `false` if you want to override the default behavior of
 		// the popup closing when another popup is opened.
-		autoClose: true,
+		autoClose: false,
 
 		// @option closeOnEscapeKey: Boolean = true
 		// Set it to `false` if you want to override the default behavior of
@@ -9780,6 +9780,7 @@ var Popup = DivOverlay.extend({
 		// @option closeOnClick: Boolean = *
 		// Set it if you want to override the default behavior of the popup closing when user clicks
 		// on the map. Defaults to the map's [`closePopupOnClick`](#map-closepopuponclick) option.
+		closeOnClick: false,
 
 		// @option className: String = ''
 		// A custom CSS class name to assign to the popup.

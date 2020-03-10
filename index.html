@@ -11,9 +11,7 @@
     </head>
     <body>
         <div id="PMap" translate="no" class="colormap"></div>
-        <div class="title" id="title">
-            
-        </div>
+        <div class="title" id="title"></div>
         <script src="assets/js/script.js"></script>
         <div id="bg-selector">
             <div class="color gray" data-value="#eaeaea"></div>
@@ -35,5 +33,15 @@
         <script id="rendered-js" src="assets/js/changecolor.js"></script>
         <script src="assets/leaflet/leaflet.js"></script>
         <script src="assets/js/map.js"></script>
+        <script>
+
+            let markers = document.getElementsByClassName('leaflet-marker-icon');
+
+            for (let index = 0; index < markers.length; index++) {
+                setTimeout(() => {
+                    markers[index].click();
+                }, (index*500));
+            }
+        </script>
     </body>
 </html>
