@@ -25,39 +25,44 @@ L.tileLayer(``, {
     attribution: attributionText
 }).addTo(PMap);
 
+
+let size_1 = [120, 120];
+let size_2 = [90, 90];
+let size_3 = [80, 80];
+
 let yellowMarker = L.icon({
     iconUrl: 'assets/images/yellow_sphere.png',
-    iconSize: [30, 30]
+    iconSize: size_3
 });
 
 let skyblueMarker = L.icon({
     iconUrl: 'assets/images/skyblue_sphere.png',
-    iconSize: [30, 30]
+    iconSize: size_3
 });
 
 let redMarker = L.icon({
     iconUrl: 'assets/images/red_sphere.png',
-    iconSize: [30, 30]
+    iconSize: size_3
 });
 
 let greenMarker = L.icon({
     iconUrl: 'assets/images/green_sphere.png',
-    iconSize: [30, 30]
+    iconSize: size_3
 });
 
 let whiteMarker = L.icon({
     iconUrl: 'assets/images/white_sphere.png',
-    iconSize: [40, 40]
+    iconSize: size_2
 });
 
 let whiteBigMarker = L.icon({
     iconUrl: 'assets/images/white_sphere.png',
-    iconSize: [60, 60]
+    iconSize: size_1
 });
 
 let iconMarker = L.icon({
     iconUrl: 'assets/images/1.png',
-    iconSize: [30, 30]
+    iconSize: [70, 70]
 });
 
 let iconMarker3 = L.icon({
@@ -66,14 +71,14 @@ let iconMarker3 = L.icon({
 });
 
 var sol = xy(175.2, -145.0);
-var Geometry = xy(40, -119.1);
-var Numbers = xy(-70.4, -6.5);
-var deneb = xy(198.7, -60.3);
-var AppliedMath = xy(100, -20);
-var AnalysisMath = xy(300, -0.09);
-var Algebra = xy(250, -109);
+var PureMath = xy(98, 285);
 var MainMath = xy(98, 105);
-var PureMath = xy(98, 205);
+var AppliedMath = xy(98, -90);
+var Numbers = xy(-130, -0.09);
+var deneb = xy(198.7, -60.3);
+var AnalysisMath = xy(350, -0.09);
+var Geometry = xy(-130, -179);
+var Algebra = xy(350, -179);
 
 L.marker(Geometry, { icon: greenMarker })
     .addTo(PMap)
@@ -85,7 +90,7 @@ L.marker(Numbers, { icon: yellowMarker })
 
 L.marker(AppliedMath, { icon: whiteMarker })
     .addTo(PMap)
-    .bindPopup('Matemática');
+    .bindPopup('Matemática Aplicada');
 
 L.marker(AnalysisMath, { icon: iconMarker })
     .addTo(PMap)
@@ -97,7 +102,7 @@ L.marker(Algebra, { icon: skyblueMarker })
 
 L.marker(MainMath, { icon: whiteBigMarker })
     .addTo(PMap)
-    .bindPopup('Matemática Aplicada');
+    .bindPopup('Matemática');
 
 L.marker(PureMath, { icon: whiteMarker })
     .addTo(PMap)
