@@ -7,24 +7,14 @@ var yx = L.latLng;
 
 var xy = function(x, y) {
     if (L.Util.isArray(x)) {
-        // When doing xy([x, y]);
         return yx(x[1], x[0]);
     }
-    return yx(y, x); // When doing xy(x, y);
+    return yx(y, x);
 };
 
 let PMap = L.map('PMap', { crs: L.CRS.Simple }).setView([89, 100], 0);
 
 var searchLayer = L.geoJson().addTo(PMap);
-
-// L.control.scale().addTo(PMap);
-
-// setInterval(function(){
-//    map.setView([0, 0]);
-//    setTimeout(function(){
-//        map.setView([60, 0]);
-//    }, 2000);
-// }, 4000);
 
 const attributionText =
     '<span aria-label="Libro">📘</span> <strong>Filosinapsis</strong>';
@@ -34,8 +24,6 @@ L.tileLayer(``, {
     maxZoom: 10,
     attribution: attributionText
 }).addTo(PMap);
-
-// let marker = L.marker([51.5, -0.09]).addTo(PMap)
 
 let yellowMarker = L.icon({
     iconUrl: 'assets/images/yellow_sphere.png',
