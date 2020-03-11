@@ -85,7 +85,7 @@ L.marker(Numbers, { icon: yellowMarker })
 
 L.marker(AppliedMath, { icon: whiteMarker })
     .addTo(PMap)
-    .bindPopup('Matemática aplicada');
+    .bindPopup('Matemática');
 
 L.marker(AnalysisMath, { icon: iconMarker })
     .addTo(PMap)
