@@ -7796,11 +7796,11 @@ var Path = Layer.extend({
 
 		// @option color: String = '#3388ff'
 		// Color del trazo
-		color: '#3388ff',
+		color: '#f0f0f0',
 
 		// @option peso: Number = 3
 		// Ancho de trazo en píxeles
-		weight: 3,
+		weight: 2,
 
 		// @option opacity: Number = 1.0
 		// Opacidad/Transparencia del trazo
