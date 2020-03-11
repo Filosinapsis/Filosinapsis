@@ -491,21 +491,21 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .leaflet-popup {
     position: absolute;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: -15px;
 }
 .leaflet-popup-content-wrapper {
     padding: 1px;
     text-align: left;
     border-radius: 12px;
     font-family: var(--font-family-text);
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 .leaflet-popup-content {
-    margin: 13px 19px;
+    margin: 0.6rem 0.6rem;
     line-height: 1.4;
 }
 .leaflet-popup-content p {
-    margin: 18px 0;
+    margin: 12px 0;
 }
 .leaflet-popup-tip-container {
     width: 40px;
@@ -531,9 +531,9 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.75);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
     color: white;
-    box-shadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.2);
 }
 .leaflet-container a.leaflet-popup-close-button {
     display: none;
