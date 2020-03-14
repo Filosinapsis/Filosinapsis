@@ -26,9 +26,9 @@ L.tileLayer(``, {
 }).addTo(PMap);
 
 
-let size_1 = [120, 120];
-let size_2 = [90, 90];
-let size_3 = [80, 80];
+let size_1 = [130, 130];
+let size_2 = [100, 100];
+let size_3 = [90, 90];
 
 let yellowMarker = L.icon({
     iconUrl: 'assets/images/yellow_sphere.png',
@@ -41,7 +41,7 @@ let skyblueMarker = L.icon({
 });
 
 let redMarker = L.icon({
-    iconUrl: 'assets/images/red_sphere.png',
+    iconUrl: 'assets/images/1.png',
     iconSize: size_3
 });
 
@@ -92,7 +92,7 @@ L.marker(AppliedMath, { icon: whiteMarker })
     .addTo(PMap)
     .bindPopup('Matemática Aplicada');
 
-L.marker(AnalysisMath, { icon: iconMarker })
+L.marker(AnalysisMath, { icon: redMarker })
     .addTo(PMap)
     .bindPopup('Análisis matemático');
 
