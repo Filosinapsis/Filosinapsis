@@ -495,10 +495,11 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 .leaflet-popup-content-wrapper {
     padding: 1px;
-    text-align: left;
+    text-align: center !important;
     border-radius: 12px;
     font-family: var(--font-family-text);
     font-size: 1.1rem;
+    width: 140px;
 }
 .leaflet-popup-content {
     margin: 0.6rem 0.6rem;
