@@ -1,16 +1,4 @@
-let mainTitle = 'Matemática';
-mainTitleBox = document.getElementById('title');
-mainTitleBox.innerHTML = mainTitle;
-
 // JavaScript Document auto !important
-var yx = L.latLng;
-
-var xy = function(x, y) {
-    if (L.Util.isArray(x)) {
-        return yx(x[1], x[0]);
-    }
-    return yx(y, x);
-};
 
 let PMap = L.map('PMap', { crs: L.CRS.Simple }).setView([89, 100], 0);
 
@@ -70,16 +58,6 @@ let iconMarker3 = L.icon({
     iconSize: [20, 20]
 });
 
-var sol = xy(175.2, -145.0);
-var PureMath = xy(98, 285);
-var MainMath = xy(98, 105);
-var AppliedMath = xy(98, -90);
-var Numbers = xy(-130, -0.09);
-var deneb = xy(198.7, -60.3);
-var AnalysisMath = xy(350, -0.09);
-var Geometry = xy(-130, -179);
-var Algebra = xy(350, -179);
-
 L.marker(Geometry, { icon: greenMarker })
     .addTo(PMap)
     .bindPopup('Geometría');
@@ -108,13 +86,14 @@ L.marker(PureMath, { icon: whiteMarker })
     .addTo(PMap)
     .bindPopup('Matemática Pura');
 
-var travel = L.polyline([AppliedMath, Geometry]).addTo(PMap);
-var travel = L.polyline([AppliedMath, AnalysisMath]).addTo(PMap);
-var travel = L.polyline([Algebra, AppliedMath]).addTo(PMap);
-var travel = L.polyline([Numbers, AppliedMath]).addTo(PMap);
-var travel = L.polyline([AppliedMath, MainMath]).addTo(PMap);
-var travel = L.polyline([PureMath, MainMath]).addTo(PMap);
+L.polyline([PureMath, Geometry]).addTo(PMap);
+L.polyline([PureMath, AnalysisMath]).addTo(PMap);
+L.polyline([Algebra, PureMath]).addTo(PMap);
+L.polyline([Numbers, PureMath]).addTo(PMap);
+L.polyline([AppliedMath, MainMath]).addTo(PMap);
+L.polyline([PureMath, MainMath]).addTo(PMap);
 
+// TODO: Remove this double clic neuron
 PMap.doubleClickZoom.disable();
 PMap.on('dblclick', e => {
     let latLng = PMap.mouseEventToLatLng(e.originalEvent);
@@ -125,4 +104,5 @@ var bounds = [
     [0, 0],
     [3000, 3000]
 ];
+
 var image = L.imageOverlay('', bounds).addTo(PMap);
