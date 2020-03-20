@@ -93,13 +93,6 @@ L.polyline([Numbers, PureMath]).addTo(PMap);
 L.polyline([AppliedMath, MainMath]).addTo(PMap);
 L.polyline([PureMath, MainMath]).addTo(PMap);
 
-// TODO: Remove this double clic neuron
-PMap.doubleClickZoom.disable();
-PMap.on('dblclick', e => {
-    let latLng = PMap.mouseEventToLatLng(e.originalEvent);
-    L.marker([latLng.lat, latLng.lng], { icon: whiteMarker }).addTo(PMap);
-});
-
 var bounds = [
     [0, 0],
     [3000, 3000]
