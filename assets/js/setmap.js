@@ -13,10 +13,9 @@ L.tileLayer(``, {
     attribution: attributionText
 }).addTo(PMap);
 
-
 let big = [130, 130]; // Big
 let medium = [100, 100]; // Medium
-let small = [90, 90];   // Small
+let small = [90, 90]; // Small
 
 // TODO: Crear rutina para encajar las características de cada neurona
 
@@ -60,35 +59,40 @@ let iconMarker3 = L.icon({
     iconSize: [20, 20]
 });
 
-// TODO: Crear una rutina para apuntar las neuronas en el mapa
+function get_icon_color_and_size(color, size) {
+    if (color == 'green') {
+        return greenMarker;
+    } else if (color == 'yellow') {
+        return yellowMarker;
+    } else if (color == 'red') {
+        return redMarker;
+    } else if (color == 'skyblue') {
+        return skyblueMarker;
+    } else if (color == 'white') {
+        if (size == 'big') {
+            return whiteBigMarker;
+        } else {
+            return whiteMarker;
+        }
+    }
+}
 
-L.marker(Geometry, { icon: greenMarker })
-    .addTo(PMap)
-    .bindPopup('Geometría');
+let marker_color;
+let marker_size;
+let marker_name;
 
-L.marker(Numbers, { icon: yellowMarker })
-    .addTo(PMap)
-    .bindPopup('Números');
+for (let i = 0; i < Data.length; i++) {
+    marker_color = Data[i].color;
+    marker_size = Data[i].size;
+    marker_name = Data[i].name;
 
-L.marker(AppliedMath, { icon: whiteMarker })
-    .addTo(PMap)
-    .bindPopup('Matemática Aplicada');
-
-L.marker(AnalysisMath, { icon: redMarker })
-    .addTo(PMap)
-    .bindPopup('Análisis matemático');
-
-L.marker(Algebra, { icon: skyblueMarker })
-    .addTo(PMap)
-    .bindPopup('Álgebra');
-
-L.marker(MainMath, { icon: whiteBigMarker })
-    .addTo(PMap)
-    .bindPopup('Matemática');
-
-L.marker(PureMath, { icon: whiteMarker })
-    .addTo(PMap)
-    .bindPopup('Matemática Pura');
+    L.marker(
+        coordinates_yx(Data[i]['coordinates_y'], Data[i]['coordinates_x']),
+        { icon: get_icon_color_and_size(marker_color, marker_size) }
+    )
+        .addTo(PMap)
+        .bindPopup(marker_name);
+}
 
 // TODO: Crear una rutina para trazar las polyline
 L.polyline([PureMath, Geometry]).addTo(PMap);
