@@ -2,7 +2,7 @@ const Data = [
     {
         id: 0,
         name: 'Matemática',
-        SubNeurons: [1, 2],
+        SubNeurons: [1, 6],
         SuperNeuron: -1,
         color: 'white',
         size: 'big'
@@ -50,7 +50,7 @@ const Data = [
     {
         id: 6,
         name: 'Matemática Aplicada',
-        SubNeurons: [3, 4, 5, 6],
+        SubNeurons: [],
         SuperNeuron: 0,
         color: 'white',
         size: 'medium'
