@@ -262,11 +262,32 @@
 .leaflet-marker-icon {
     border-radius: 100%;
     outline: none;
-    transition: 0.5s ease-in;
+    transition: 2s cubic-bezier(.46,1.2,.61,-0.11);
 }
 
 .leaflet-marker-icon:hover {
     box-shadow: 0px 0px 3.5rem 1rem rgba(255, 255, 255, 0.8);
+}
+
+.leaflet-pane:hover
+.leaflet-popup {
+    transition-property: margin-bottom;
+    transition-duration: 300ms;
+    margin-bottom: 20px;
+}
+
+.leaflet-pane:hover
+.leaflet-popup-content-wrapper {
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.leaflet-pane:hover
+.leaflet-popup-tip {
+    display: block;
+    transition-duration: 300ms;
 }
 
 .leaflet-marker-icon.leaflet-interactive,
@@ -491,7 +512,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .leaflet-popup {
     position: absolute;
     text-align: center;
-    margin-bottom: -15px;
+    margin-bottom: -16px;
 }
 .leaflet-popup-content-wrapper {
     padding: 1px;
@@ -532,8 +553,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-    background: rgba(0, 0, 0, 0.75);
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, 0.55);
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
     color: white;
 }
 .leaflet-container a.leaflet-popup-close-button {
