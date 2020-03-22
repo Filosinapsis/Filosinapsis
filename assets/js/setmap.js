@@ -96,7 +96,6 @@ for (let i = 0; i < Data.length; i++) {
 
 let polyline;
 
-// TODO: Crear una rutina para trazar las polyline
 for (let i = 0; i < Data.length; i++) {
     if (Data[i].SubNeurons.length > 0) {
         for (let j = 0; j < Data[i].SubNeurons.length; j++) {
