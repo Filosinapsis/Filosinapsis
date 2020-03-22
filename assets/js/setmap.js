@@ -94,13 +94,25 @@ for (let i = 0; i < Data.length; i++) {
         .bindPopup(marker_name);
 }
 
+let polyline;
+
 // TODO: Crear una rutina para trazar las polyline
-L.polyline([PureMath, Geometry]).addTo(PMap);
-L.polyline([PureMath, AnalysisMath]).addTo(PMap);
-L.polyline([PureMath, MainMath]).addTo(PMap);
-L.polyline([PureMath, Algebra]).addTo(PMap);
-L.polyline([PureMath, Numbers]).addTo(PMap);
-L.polyline([MainMath, AppliedMath]).addTo(PMap);
+for (let i = 0; i < Data.length; i++) {
+    if (Data[i].SubNeurons.length > 0) {
+        for (let j = 0; j < Data[i].SubNeurons.length; j++) {
+            L.polyline([
+                coordinates_yx(
+                    Data[i]['coordinates_y'],
+                    Data[i]['coordinates_x']
+                ),
+                coordinates_yx(
+                    Data[Data[i].SubNeurons[j]]['coordinates_y'],
+                    Data[Data[i].SubNeurons[j]]['coordinates_x']
+                )
+            ]).addTo(PMap);
+        }
+    }
+}
 
 var bounds = [
     [0, 0],

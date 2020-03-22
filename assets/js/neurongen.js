@@ -41,7 +41,7 @@ function positioning(neurons) {
     for (let i = 0; i < number_of_neurons; i++) {
         
         number_of_local_neurons = neurons[i].SubNeurons.length;
-        console.log('Padre: ' + neurons[i].name + ' tiene ' + number_of_local_neurons + ' hijos.');
+        // console.log('Padre: ' + neurons[i].name + ' tiene ' + number_of_local_neurons + ' hijos.');
 
         for (let j = 0; j < number_of_neurons; j++) {
         
@@ -64,14 +64,14 @@ function positioning(neurons) {
                 x = Math.round(x);
                 y = Math.round(y);
         
-                console.log('    ' + neurons[j].name + ' es hijo de ' + neurons[i].name + '. Tiene una terminabilidad de ' + terminability);
+                // console.log('    ' + neurons[j].name + ' es hijo de ' + neurons[i].name + '. Tiene una terminabilidad de ' + terminability);
 
                 // Asignaremos las coordenadas al objeto
                 // 
                 neurons_with_coordinates[j]['coordinates_x'] = x;
                 neurons_with_coordinates[j]['coordinates_y'] = y;
 
-                console.log('          Alpha: ' + alpha + ' Coordenadas=> Y: ' + y + ', X: ' + x);
+                // console.log('          Alpha: ' + alpha + ' Coordenadas=> Y: ' + y + ', X: ' + x);
 
                 alpha = 0;
                 x = 0;
@@ -89,9 +89,9 @@ function positioning(neurons) {
 }
 
 const neurons_with_coordinates = positioning(Data);
-console.log(neurons_with_coordinates);
+// console.log(neurons_with_coordinates);
 
-AppliedMath = coordinates_yx(100, 860);
+AppliedMath = coordinates_yx(100, 290);
 PureMath = coordinates_yx(100, -660);
 
 Numbers = coordinates_yx(-90, -660);
