@@ -97,10 +97,10 @@ for (let i = 0; i < Data.length; i++) {
 // TODO: Crear una rutina para trazar las polyline
 L.polyline([PureMath, Geometry]).addTo(PMap);
 L.polyline([PureMath, AnalysisMath]).addTo(PMap);
-L.polyline([Algebra, PureMath]).addTo(PMap);
-L.polyline([Numbers, PureMath]).addTo(PMap);
-L.polyline([AppliedMath, MainMath]).addTo(PMap);
 L.polyline([PureMath, MainMath]).addTo(PMap);
+L.polyline([PureMath, Algebra]).addTo(PMap);
+L.polyline([PureMath, Numbers]).addTo(PMap);
+L.polyline([MainMath, AppliedMath]).addTo(PMap);
 
 var bounds = [
     [0, 0],
