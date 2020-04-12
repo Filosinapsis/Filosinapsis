@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "name": "Matemática",
+        "SubNeurons": [1],
+        "SuperNeuron": -1,
+        "color": "white",
+        "size": "big"
+    },
+    {
+        "id": 1,
+        "name": "Matemáticas Puras",
+        "SubNeurons": [2],
+        "SuperNeuron": 0,
+        "color": "white",
+        "size": "big"
+    },
+    {
+        "id": 2,
+        "name": "Aritmética",
+        "SubNeurons": [3],
+        "SuperNeuron": 1,
+        "color": "white",
+        "size": "big"
+    },
+    {
+        "id": 3,
+        "name": "Conjuntos numéricos",
+        "SubNeurons": [4],
+        "SuperNeuron": 2,
+        "color": "white",
+        "size": "big"
+    },
+    {
+        "id": 4,
+        "name": "Números naturales",
+        "SubNeurons": [5, 6, 7, 8],
+        "SuperNeuron": 3,
+        "color": "white",
+        "size": "big"
+    },
+    {
+        "id": 5,
+        "name": "Perspectiva histórica",
+        "SubNeurons": [],
+        "SuperNeuron": 4,
+        "color": "white",
+        "size": "big"
+    },
+    {
+        "id": 6,
+        "name": "Definición",
+        "SubNeurons": [],
+        "SuperNeuron": 4,
+        "color": "white",
+        "size": "big"
+    },
+    {
+        "id": 7,
+        "name": "Representación gráfica",
+        "SubNeurons": [],
+        "SuperNeuron": 4,
+        "color": "white",
+        "size": "big"
+    },
+    {
+        "id": 8,
+        "name": "Operaciones",
+        "SubNeurons": [],
+        "SuperNeuron": 4,
+        "color": "white",
+        "size": "big"
+    }      
+]

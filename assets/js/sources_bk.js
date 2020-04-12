@@ -5,14 +5,14 @@ const Data = [
         "SubNeurons": [1],
         "SuperNeuron": -1,
         "color": "white",
-        "size": "big"
+        "size": "small"
     },
     {
         "id": 1,
         "name": "Matemáticas Puras",
         "SubNeurons": [2],
         "SuperNeuron": 0,
-        "color": "yellow",
+        "color": "white",
         "size": "small"
     },
     {
@@ -21,14 +21,14 @@ const Data = [
         "SubNeurons": [3],
         "SuperNeuron": 1,
         "color": "white",
-        "size": "green"
+        "size": "small"
     },
     {
         "id": 3,
         "name": "Conjuntos numéricos",
-        "SubNeurons": [4],
+        "SubNeurons": [4, 21],
         "SuperNeuron": 2,
-        "color": "skyblue",
+        "color": "white",
         "size": "small"
     },
     {
@@ -36,7 +36,7 @@ const Data = [
         "name": "Números naturales",
         "SubNeurons": [5, 6, 7, 8],
         "SuperNeuron": 3,
-        "color": "red",
+        "color": "white",
         "size": "small"
     },
     {
@@ -44,7 +44,7 @@ const Data = [
         "name": "Perspectiva histórica",
         "SubNeurons": [],
         "SuperNeuron": 4,
-        "color": "yellow",
+        "color": "white",
         "size": "small"
     },
     {
@@ -52,7 +52,7 @@ const Data = [
         "name": "Definición",
         "SubNeurons": [],
         "SuperNeuron": 4,
-        "color": "green",
+        "color": "white",
         "size": "small"
     },
     {
@@ -60,7 +60,7 @@ const Data = [
         "name": "Representación gráfica",
         "SubNeurons": [],
         "SuperNeuron": 4,
-        "color": "red",
+        "color": "white",
         "size": "small"
     },
     {
@@ -68,7 +68,7 @@ const Data = [
         "name": "Operaciones",
         "SubNeurons": [9, 10, 11, 12, 13, 14],
         "SuperNeuron": 4,
-        "color": "skyblue",
+        "color": "white",
         "size": "small"
     },
     {
@@ -76,7 +76,7 @@ const Data = [
         "name": "Suma",
         "SubNeurons": [],
         "SuperNeuron": 8,
-        "color": "yellow",
+        "color": "white",
         "size": "small"
     },
     {
@@ -84,7 +84,7 @@ const Data = [
         "name": "Resta",
         "SubNeurons": [],
         "SuperNeuron": 8,
-        "color": "green",
+        "color": "white",
         "size": "small"
     },
     {
@@ -92,7 +92,7 @@ const Data = [
         "name": "Multiplicación",
         "SubNeurons": [],
         "SuperNeuron": 8,
-        "color": "red",
+        "color": "white",
         "size": "small"
     },
     {
@@ -100,7 +100,7 @@ const Data = [
         "name": "Potenciación",
         "SubNeurons": [],
         "SuperNeuron": 8,
-        "color": "skyblue",
+        "color": "white",
         "size": "small"
     },
     {
@@ -108,7 +108,7 @@ const Data = [
         "name": "Radicalización",
         "SubNeurons": [],
         "SuperNeuron": 8,
-        "color": "yellow",
+        "color": "white",
         "size": "small"
     },
     {
@@ -116,7 +116,7 @@ const Data = [
         "name": "División",
         "SubNeurons": [15, 17],
         "SuperNeuron": 8,
-        "color": "green",
+        "color": "white",
         "size": "small"
     },
     {
@@ -124,7 +124,7 @@ const Data = [
         "name": "Algoritmo de la división",
         "SubNeurons": [16],
         "SuperNeuron": 14,
-        "color": "red",
+        "color": "white",
         "size": "small"
     },
     {
@@ -132,7 +132,7 @@ const Data = [
         "name": "Teorema del resto",
         "SubNeurons": [],
         "SuperNeuron": 15,
-        "color": "skyblue",
+        "color": "white",
         "size": "small"
     },
     {
@@ -140,7 +140,39 @@ const Data = [
         "name": "Divisibilidad",
         "SubNeurons": [],
         "SuperNeuron": 14,
-        "color": "yellow",
+        "color": "white",
+        "size": "small"
+    },
+    {
+        "id": 18,
+        "name": "Divisores de un número",
+        "SubNeurons": [],
+        "SuperNeuron": 17,
+        "color": "white",
+        "size": "small"
+    },
+    {
+        "id": 19,
+        "name": "Decomposición de factores primos",
+        "SubNeurons": [],
+        "SuperNeuron": 17,
+        "color": "white",
+        "size": "small"
+    },
+    {
+        "id": 20,
+        "name": "Máximo Común Múltiplo y Máximo Común Divisor",
+        "SubNeurons": [],
+        "SuperNeuron": 17,
+        "color": "white",
+        "size": "small"
+    },
+    {
+        "id": 21,
+        "name": "Números Enteros",
+        "SubNeurons": [],
+        "SuperNeuron": 3,
+        "color": "white",
         "size": "small"
     }
 ];
