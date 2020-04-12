@@ -49,12 +49,12 @@ function positioning(neurons) {
                 x =
                     (terminability + 1) *
                         radius *
-                        Math.cos((j - 1) * alpha - Math.PI) +
+                        Math.cos((j - 1) * alpha - Math.PI / 2) +
                     neurons[i]['coordinates_x'];
                 y =
                     (terminability + 1) *
                         radius *
-                        Math.sin((j - 1) * alpha - Math.PI) +
+                        Math.sin((j - 1) * alpha - Math.PI / 2) +
                     neurons[i]['coordinates_y'];
 
                 x = Math.round(x);
