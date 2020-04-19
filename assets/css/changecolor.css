@@ -50,6 +50,11 @@ form {
     background-position: center;
     background-size: cover;
 }
+.night {
+    background-image: url('./../../assets/images/background/thumbnail/night.PNG');
+    background-position: center;
+    background-size: cover;
+}
 .white {
     background-color: #fff;
 }
