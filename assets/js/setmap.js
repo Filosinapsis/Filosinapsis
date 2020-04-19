@@ -8,7 +8,7 @@ const attributionText =
     '<span aria-label="Libro">📘</span> <strong>Filosinapsis</strong>';
 
 L.tileLayer(``, {
-    minZoom: -1,
+    minZoom: -5,
     maxZoom: 10,
     attribution: attributionText
 }).addTo(PMap);
