@@ -60,7 +60,7 @@
         "name": "Representación gráfica",
         "SubNeurons": [],
         "SuperNeuron": 4,
-        "color": "white",
+        "color": "blue",
         "size": "big"
     },
     {
@@ -70,5 +70,5 @@
         "SuperNeuron": 4,
         "color": "white",
         "size": "big"
-    }      
+    }
 ]
