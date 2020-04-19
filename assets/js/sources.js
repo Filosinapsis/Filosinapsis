@@ -60,7 +60,7 @@ const Data = [
         "name": "Representación gráfica",
         "SubNeurons": [],
         "SuperNeuron": 4,
-        "color": "red",
+        "color": "blue",
         "size": "small"
     },
     {
