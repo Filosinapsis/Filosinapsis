@@ -21,7 +21,7 @@ form {
     font-style: italic;
     right: 1%;
     position: absolute;
-    background-color: rgba(25, 25, 25, 0.85);
+    background-color: rgba(25, 25, 25, 0.55);
     padding: 0.5rem 0.5rem;
     border-radius: 50rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -45,8 +45,10 @@ form {
 .black {
     background-color: #000;
 }
-.gray {
-    background-color: #eaeaea;
+.universe {
+    background-image: url('./../../assets/images/background/thumbnail/galaxy.PNG');
+    background-position: center;
+    background-size: cover;
 }
 .white {
     background-color: #fff;

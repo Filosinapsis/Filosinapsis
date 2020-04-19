@@ -1,8 +1,17 @@
+let platform_map = document.getElementById('PMap')
+
 $(function() {
-    //bg color selector
     $('.color').click(function() {
         var color = $(this).attr('data-value');
-        $('.colormap').css('background-color', color);
+        var is_image = $(this).attr('data-image');
+
+        if (is_image) {
+            platform_map.style['background-image'] = "url(" + color + ")";
+        } else {
+            platform_map.style['background-image'] = "";
+            platform_map.style['background-color'] = color;
+        }
+
     });
 
     //add color picker if supported
@@ -12,7 +21,6 @@ $(function() {
         c.addEventListener(
             'change',
             function(e) {
-                //d.innerHTML = c.value;
                 var color = c.value;
                 $('.colormap').css('background-color', color);
             },
@@ -23,4 +31,3 @@ $(function() {
 function pickColor() {
     $('#colorpicker').click();
 }
-//# sourceURL=pen.js
