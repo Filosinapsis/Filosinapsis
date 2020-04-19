@@ -28,4 +28,8 @@ if (getWidth() > 768) {
             markers[index].click();
         }, index * seconds);
     }
+} else {
+    for (let index = 0; index < markers.length; index++) {
+        markers[index].click();
+    }
 }
