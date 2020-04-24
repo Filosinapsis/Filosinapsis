@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.0-beta.38/vega.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.0-beta.5/vega-lite.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-beta.19/vega-embed.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    
+    .vega-actions a {
+      padding: 0.2em;
+    }
+  </style>
+</head>
+
+<body>  
+  <div id="vis"></div>
+  
+  <script>
+    const spec = "population.vl.json";
+  	vega.embed('#vis', spec);
+  </script>
+</body>
