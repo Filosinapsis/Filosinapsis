@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <meta charset="utf-8" />
-<style>
-    .link {
-        fill: none;
-        stroke: #666;
-        stroke-width: 1.5px;
-    }
+<head>
+    <title>Vega D3.js Filosinapsis</title>
+    <style>
+        .link {
+            fill: none;
+            stroke: #666;
+            stroke-width: 1.5px;
+        }
 
-    .node circle {
-        fill: #ccc;
-        stroke: #fff;
-        stroke-width: 1.5px;
-    }
+        .node circle {
+            fill: #ccc;
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
 
-    text {
-        font: 1rem sans-serif;
-        pointer-events: none;
-    }
-</style>
+        text {
+            font: 1rem sans-serif;
+            pointer-events: none;
+        }
+    </style>
+</head>
 <body>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script>
         var links = [
             { source: 'Matemáticas Puras', target: 'Aritmética', type: 'suit' },
-            { source: 'Conjuntos numéricos', target: 'Aritmética', type: 'suit' },
-            { source: 'Números Naturales', target: 'Conjuntos numéricos', type: 'resolved' },
-            { source: 'Operaciones', target: 'Números Naturales', type: 'suit' },
+            {
+                source: 'Conjuntos numéricos',
+                target: 'Aritmética',
+                type: 'suit',
+            },
+            {
+                source: 'Números Naturales',
+                target: 'Conjuntos numéricos',
+                type: 'resolved',
+            },
+            {
+                source: 'Operaciones',
+                target: 'Números Naturales',
+                type: 'suit',
+            },
             { source: 'Operaciones', target: 'Suma', type: 'suit' },
             { source: 'Operaciones', target: 'Resta', type: 'suit' },
             { source: 'Operaciones', target: 'Multiplicación', type: 'suit' },
             { source: 'Operaciones', target: 'Potenciación', type: 'suit' },
             { source: 'Operaciones', target: 'Radicalización', type: 'suit' },
-            { source: 'Conjuntos numéricos', target: 'Números Naturales', type: 'resolved' },
+            {
+                source: 'Conjuntos numéricos',
+                target: 'Números Naturales',
+                type: 'resolved',
+            },
             { source: 'Aritmética', target: 'Matemáticas Puras', type: 'suit' },
-            { source: 'Matemáticas', target: 'Matemáticas Puras', type: 'suit' },
-            { source: 'Matemáticas Puras', target: 'Matemáticas', type: 'suit' },
+            {
+                source: 'Matemáticas',
+                target: 'Matemáticas Puras',
+                type: 'suit',
+            },
+            {
+                source: 'Matemáticas Puras',
+                target: 'Matemáticas',
+                type: 'suit',
+            },
         ];
 
         var nodes = {};
