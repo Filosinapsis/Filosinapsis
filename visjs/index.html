@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+        ></script>
+        <style>
+            html,
+            body {
+                height: 100%;
+                margin: 0px;
+            }
+
+            #PMap {
+                width: 100%;
+                height: 100%;
+                background-image: url('https://filosinapsis.github.io/Filosinapsis/assets/images/background/galaxy.jpg');
+                background-position: center;
+                background-repeat: cover;
+                outline: 0 !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="PMap"></div>
+        <script>
+            var neurons = new vis.DataSet([
+                { id: 0, label: 'Matemática' },
+                { id: 1, label: 'Matemáticas Puras' },
+                { id: 2, label: 'Aritmética' },
+                { id: 3, label: 'Conjuntos numéricos' },
+                { id: 4, label: 'Números naturales' },
+                { id: 5, label: 'Perspectiva histórica' },
+                { id: 6, label: 'Definición' },
+                { id: 7, label: 'Representación gráfica' },
+                { id: 8, label: 'Operaciones' },
+                { id: 9, label: 'Suma' },
+                { id: 10, label: 'Resta' },
+                { id: 11, label: 'Multiplicación' },
+                { id: 12, label: 'Potenciación' },
+                { id: 13, label: 'Radicalización' },
+                { id: 14, label: 'División' },
+            ]);
+
+            var edges = new vis.DataSet([
+                { from: 0, to: 1 },
+                { from: 1, to: 2 },
+                { from: 2, to: 3 },
+                { from: 3, to: 4 },
+                { from: 4, to: 5 },
+                { from: 4, to: 6 },
+                { from: 4, to: 7 },
+                { from: 4, to: 8 },
+                { from: 8, to: 9 },
+                { from: 8, to: 10 },
+                { from: 8, to: 11 },
+                { from: 8, to: 12 },
+                { from: 8, to: 13 },
+                { from: 8, to: 14 },
+            ]);
+
+            var contenedor = document.getElementById('PMap');
+
+            var data = {
+                nodes: neurons,
+                edges: edges,
+            };
+
+            var options = {
+
+            };
+
+            options.nodes = {
+                color: 'white',
+                font: '16',
+                shape: 'circle'
+            };
+
+            var grafo = new vis.Network(contenedor, data, options);
+        </script>
+    </body>
+</html>
