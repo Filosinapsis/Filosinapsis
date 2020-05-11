@@ -4,7 +4,7 @@
   "width": 700,
   "height": 500,
   "padding": 0,
-  "autosize": "none",
+  "autosize": "pad",
 
   "signals": [
     { "name": "cx", "update": "width / 2" },
