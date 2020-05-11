@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vega/3.0.0-beta.38/vega.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-lite/2.0.0-beta.5/vega-lite.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vega-embed/3.0.0-beta.19/vega-embed.js"></script>
-  <style>
-    body {
-      font-family: sans-serif;
-    }
-    
-    .vega-actions a {
-      padding: 0.2em;
-    }
-  </style>
-</head>
+    <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5/build/vega-core.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
 
-<body>  
-  <div id="vis"></div>
-  
-  <script>
-    const spec = "population.vl.json";
-  	vega.embed('#vis', spec);
-  </script>
+        .vega-actions a {
+            padding: 0.2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="view"></div>
+    <script type="text/javascript">
+        var view;
+
+        fetch('https://vega.github.io/vega/examples/force-directed-layout.vg.json')
+            .then((res) => res.json())
+            .then((spec) => render(spec))
+            .catch((err) => console.error(err));
+
+        function render(spec) {
+            view = new vega.View(vega.parse(spec), {
+                renderer: 'canvas', // renderer (canvas or svg)
+                container: '#view', // parent DOM container
+                hover: true, // enable hover processing
+            });
+            return view.runAsync();
+        }
+    </script>
 </body>
