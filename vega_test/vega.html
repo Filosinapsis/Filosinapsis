@@ -20,7 +20,7 @@
     <script type="text/javascript">
         var view;
 
-        fetch('neurons.vg.json')
+        fetch('https://vega.github.io/vega/examples/bar-chart.vg.json')
             .then((res) => res.json())
             .then((spec) => render(spec))
             .catch((err) => console.error(err));
