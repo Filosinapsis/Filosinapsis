@@ -152,6 +152,7 @@
             ]
         }
     ],
+
     "legends": [
         {
             "title": "Last week topics",
@@ -170,11 +171,11 @@
                     "name": "legendLabel",
                     "update": {
                         "fontSize": { "value": 12 },
-                        "fill": { "value": "black" }
+                        "fill": { "value": "blue" }
                     },
                     "hover": {
                         "opacity": { "value": 1 },
-                        "fill": { "value": "black" }
+                        "fill": { "value": "red" }
                     },
                     "interactive": true
                 },
@@ -187,7 +188,7 @@
                     },
                     "hover": {
                         "opacity": { "value": 1 },
-                        "fill": { "value": "black" }
+                        "fill": { "value": "green" }
                     },
                     "interactive": true
                 },

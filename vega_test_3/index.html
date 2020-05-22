@@ -29,8 +29,6 @@
     <script type="text/javascript">
         var view;
 
-        // TODO: Figure out how to put text in the VegaJS
-
         fetch('neurons.vg.json')
             .then((res) => res.json())
             .then((spec) => render(spec))
