@@ -71,7 +71,7 @@
         },
         {
             "name": "static",
-            "value": true,
+            "value": false,
             "bind": { "input": "checkbox" }
         },
         {
@@ -354,7 +354,7 @@
             }
         },
         {
-            "type": "text",
+            "type": "image",
             "zindex": 3,
             "from": { "data": "nodes" },
             "encode": {
