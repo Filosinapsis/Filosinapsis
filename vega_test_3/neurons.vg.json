@@ -354,7 +354,7 @@
             }
         },
         {
-            "type": "image",
+            "type": "text",
             "zindex": 3,
             "from": { "data": "nodes" },
             "encode": {
