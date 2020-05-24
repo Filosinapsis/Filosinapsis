@@ -57,23 +57,19 @@
         { "name": "cy", "update": "height / 2" },
         {
             "name": "nodeRadius",
-            "value": 8,
-            "bind": { "input": "range", "min": 1, "max": 50, "step": 1 }
+            "value": 8
         },
         {
             "name": "nodeCharge",
-            "value": -30,
-            "bind": { "input": "range", "min": -100, "max": 10, "step": 1 }
+            "value": -30
         },
         {
             "name": "linkDistance",
-            "value": 30,
-            "bind": { "input": "range", "min": 5, "max": 200, "step": 1 }
+            "value": 90
         },
         {
             "name": "static",
-            "value": false,
-            "bind": { "input": "checkbox" }
+            "value": false
         },
         {
             "description": "State variable for active node fix status.",
