@@ -581,8 +581,13 @@
             "fix": true,
             "group": 3,
 <<<<<<< HEAD
+<<<<<<< HEAD
             
             "last": ""
+=======
+            "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Science_Trump_Pentagon_2017.jpg/36px-Science_Trump_Pentagon_2017.jpg",
+            "last": "Trump"
+>>>>>>> parent of 8cd42ec... Delete last property value from miserables.json
 =======
             "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Science_Trump_Pentagon_2017.jpg/36px-Science_Trump_Pentagon_2017.jpg",
             "last": "Trump"
