@@ -571,7 +571,7 @@
             "last": "Asher-Smith"
         },
         {
-            "first": "Matemática",
+            "first": "Science",
             "relX": 0.46875,
             "name": "Math",
             "size": 4600,
@@ -580,8 +580,13 @@
             "relY": 0.5,
             "fix": true,
             "group": 3,
+<<<<<<< HEAD
             
             "last": ""
+=======
+            "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Science_Trump_Pentagon_2017.jpg/36px-Science_Trump_Pentagon_2017.jpg",
+            "last": "Trump"
+>>>>>>> parent of 8cd42ec... Delete last property value from miserables.json
         },
         {
             "first": "Evander",
