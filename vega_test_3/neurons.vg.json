@@ -154,57 +154,6 @@
         }
     ],
 
-    "legends": [
-        {
-            "title": "Last week topics",
-            "zindex": 0,
-            "padding": { "value": 10 },
-            "orient": "top-left",
-            "fill": "topic",
-            "encode": {
-                "title": {
-                    "update": {
-                        "fontSize": { "value": 14 },
-                        "orient": { "value": "vertical" }
-                    }
-                },
-                "labels": {
-                    "name": "legendLabel",
-                    "update": {
-                        "fontSize": { "value": 12 },
-                        "fill": { "value": "blue" }
-                    },
-                    "hover": {
-                        "opacity": { "value": 1 },
-                        "fill": { "value": "red" }
-                    },
-                    "interactive": true
-                },
-                "symbols": {
-                    "name": "legendSymbol",
-                    "update": {
-                        "stroke": { "value": "transparent" },
-                        "size": { "value": 50 },
-                        "opacity": { "value": 1 }
-                    },
-                    "hover": {
-                        "opacity": { "value": 1 },
-                        "fill": { "value": "green" }
-                    },
-                    "interactive": true
-                },
-                "legend": {
-                    "update": {
-                        "fill": { "value": "#eee" },
-                        "opacity": { "value": 0.9 },
-                        "stroke": { "value": "#ccc" },
-                        "strokeWidth": { "value": 1.5 }
-                    }
-                }
-            }
-        }
-    ],
-
     "marks": [
         {
             "name": "nodes",
