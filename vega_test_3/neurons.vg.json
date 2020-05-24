@@ -40,6 +40,7 @@
                         "type": "mouseover",
                         "markname": "legendLabel"
                     },
+                    "_comment": "comment text goes here...",
                     "update": "{'datum':datum,'x':x(datum),'y':y(datum)}"
                 },
                 {
@@ -318,26 +319,6 @@
             }
         },
         {
-            "name": "lastName",
-            "type": "text",
-            "zindex": 2,
-            "from": { "data": "nodes" },
-
-            "encode": {
-                "update": {
-                    "x": { "field": "x" },
-                    "y": { "field": "y" },
-                    "dy": { "field": "datum.fontSize" },
-                    "align": { "value": "center" },
-                    "baseline": { "value": "bottom" },
-                    "text": { "field": "datum.last" },
-                    "fontSize": { "field": "datum.fontSize" },
-                    "opacity": { "value": 1 },
-                    "fill": {"value": "white"}
-                }
-            }
-        },
-        {
             "name": "firstName",
             "type": "text",
             
@@ -348,7 +329,7 @@
                     "x": { "field": "x" },
                     "y": { "field": "y" },
                     "align": { "value": "center" },
-                    "baseline": { "value": "bottom" },
+                    "baseline": { "value": "middle" },
                     "text": { "field": "datum.first" },
                     "fontSize": { "field": "datum.fontSize" },
                     "opacity": { "value": 1 },
