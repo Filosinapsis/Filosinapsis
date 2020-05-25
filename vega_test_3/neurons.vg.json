@@ -82,7 +82,7 @@
                 },
                 {
                     "events": "*:mouseover",
-                    "update": "fix || 1"
+                    "update": "null"
                 },
                 {
                     "events": "[*:mousedown, window:mouseup] > window:mousemove!",
