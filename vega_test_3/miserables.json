@@ -329,7 +329,7 @@
     ],
     "nodes": [
         {
-            "first": "Aaron",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Aaron Ramsey",
             "size": 300,
@@ -340,7 +340,7 @@
             "last": "Ramsey"
         },
         {
-            "first": "Aaron",
+            "first": "Tema",
             "relX": 0.11458333333333334,
             "name": "Aaron Rodgers",
             "size": 100,
@@ -351,7 +351,7 @@
             "last": "Rodgers"
         },
         {
-            "first": "Alan",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Alan Shearer",
             "size": 200,
@@ -362,7 +362,7 @@
             "last": "Shearer"
         },
         {
-            "first": "Alex",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Alex Field",
             "size": 400,
@@ -373,7 +373,7 @@
             "last": "Field"
         },
         {
-            "first": "Alexandre",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Alexandre Lacazette",
             "size": 300,
@@ -384,7 +384,7 @@
             "last": "Lacazette"
         },
         {
-            "first": "Alexis",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Alexis Sanchez",
             "size": 400,
@@ -395,7 +395,7 @@
             "last": "Sanchez"
         },
         {
-            "first": "Anthony",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Anthony Scaramucci",
             "size": 800,
@@ -406,7 +406,7 @@
             "last": "Scaramucci"
         },
         {
-            "first": "Antonio",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Antonio Conte",
             "size": 600,
@@ -417,7 +417,7 @@
             "last": "Conte"
         },
         {
-            "first": "Arsene",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Arsene Wenger",
             "size": 600,
@@ -428,7 +428,7 @@
             "last": "Wenger"
         },
         {
-            "first": "Barack",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Barack Obama",
             "size": 300,
@@ -439,7 +439,7 @@
             "last": "Obama"
         },
         {
-            "first": "Blue",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Blue Jacket",
             "size": 100,
@@ -450,7 +450,7 @@
             "last": "Jacket"
         },
         {
-            "first": "Brian",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Brian Krzanich",
             "size": 400,
@@ -461,7 +461,7 @@
             "last": "Krzanich"
         },
         {
-            "first": "Brooks",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Brooks Koepka",
             "size": 100,
@@ -472,7 +472,7 @@
             "last": "Koepka"
         },
         {
-            "first": "Caster",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Caster Semenya",
             "size": 300,
@@ -483,7 +483,7 @@
             "last": "Semenya"
         },
         {
-            "first": "Chris",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Chris Stroud",
             "size": 300,
@@ -494,7 +494,7 @@
             "last": "Stroud"
         },
         {
-            "first": "Cole",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Cole White",
             "size": 100,
@@ -505,7 +505,7 @@
             "last": "White"
         },
         {
-            "first": "Dafne",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Dafne Schippers",
             "size": 200,
@@ -516,7 +516,7 @@
             "last": "Schippers"
         },
         {
-            "first": "Dan",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Dan Bylsma",
             "size": 500,
@@ -527,7 +527,7 @@
             "last": "Bylsma"
         },
         {
-            "first": "Danny",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Danny Willett",
             "size": 200,
@@ -538,7 +538,7 @@
             "last": "Willett"
         },
         {
-            "first": "David",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "David Duke",
             "size": 400,
@@ -549,7 +549,7 @@
             "last": "Duke"
         },
         {
-            "first": "Detroit",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Detroit Red",
             "size": 100,
@@ -560,7 +560,7 @@
             "last": "Red"
         },
         {
-            "first": "Dina",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Dina Asher-Smith",
             "size": 300,
@@ -571,7 +571,7 @@
             "last": "Asher-Smith"
         },
         {
-            "first": "Science",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Math",
             "size": 4600,
@@ -584,7 +584,7 @@
             "last": "Trump"
         },
         {
-            "first": "Evander",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Evander Kane",
             "size": 300,
@@ -595,7 +595,7 @@
             "last": "Kane"
         },
         {
-            "first": "Frank",
+            "first": "Tema",
             "relX": 0.890625,
             "name": "Frank Bell",
             "size": 200,
@@ -606,7 +606,7 @@
             "last": "Bell"
         },
         {
-            "first": "George",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "George Washington",
             "size": 200,
@@ -617,7 +617,7 @@
             "last": "Washington"
         },
         {
-            "first": "Grace",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Grace Mugabe",
             "size": 100,
@@ -628,7 +628,7 @@
             "last": "Mugabe"
         },
         {
-            "first": "Grayson",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Grayson Murray",
             "size": 300,
@@ -639,7 +639,7 @@
             "last": "Murray"
         },
         {
-            "first": "Gylfi",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Gylfi Sigurdsson",
             "size": 100,
@@ -650,7 +650,7 @@
             "last": "Sigurdsson"
         },
         {
-            "first": "Hideki",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Hideki Matsuyama",
             "size": 600,
@@ -661,7 +661,7 @@
             "last": "Matsuyama"
         },
         {
-            "first": "Isaac",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Isaac Makwala",
             "size": 300,
@@ -672,7 +672,7 @@
             "last": "Makwala"
         },
         {
-            "first": "Ivanka",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Ivanka Trump",
             "size": 300,
@@ -683,7 +683,7 @@
             "last": "Trump"
         },
         {
-            "first": "Jack",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Jack Eichel",
             "size": 700,
@@ -696,7 +696,7 @@
             "last": "Eichel"
         },
         {
-            "first": "James",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "James Fields",
             "size": 300,
@@ -707,7 +707,7 @@
             "last": "Fields"
         },
         {
-            "first": "James",
+            "first": "Tema",
             "relX": 0.9531250000000001,
             "name": "James Mattis",
             "size": 700,
@@ -720,7 +720,7 @@
             "last": "Mattis"
         },
         {
-            "first": "James",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "James Woods",
             "size": 100,
@@ -731,7 +731,7 @@
             "last": "Woods"
         },
         {
-            "first": "Jason",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Jason Day",
             "size": 400,
@@ -742,7 +742,7 @@
             "last": "Day"
         },
         {
-            "first": "Jason",
+            "first": "Tema",
             "relX": 0.11458333333333334,
             "name": "Jason Momoa",
             "size": 100,
@@ -753,7 +753,7 @@
             "last": "Momoa"
         },
         {
-            "first": "Jeff",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Jeff Flake",
             "size": 300,
@@ -764,7 +764,7 @@
             "last": "Flake"
         },
         {
-            "first": "Jeffrey",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Jeffrey Lord",
             "size": 200,
@@ -775,7 +775,7 @@
             "last": "Lord"
         },
         {
-            "first": "Jennifer",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Jennifer Lawrence",
             "size": 100,
@@ -786,7 +786,7 @@
             "last": "Lawrence"
         },
         {
-            "first": "Jeremy",
+            "first": "Tema",
             "relX": 0.9531250000000001,
             "name": "Jeremy Corbyn",
             "size": 400,
@@ -797,7 +797,7 @@
             "last": "Corbyn"
         },
         {
-            "first": "Jermain",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Jermain Defoe",
             "size": 100,
@@ -808,7 +808,7 @@
             "last": "Defoe"
         },
         {
-            "first": "Jerome",
+            "first": "Tema",
             "relX": 0.11458333333333334,
             "name": "Jerome Flynn",
             "size": 100,
@@ -819,7 +819,7 @@
             "last": "Flynn"
         },
         {
-            "first": "Jim",
+            "first": "Tema",
             "relX": 0.9531250000000001,
             "name": "Jim Mattis",
             "size": 400,
@@ -830,7 +830,7 @@
             "last": "Mattis"
         },
         {
-            "first": "Jimmy",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Jimmy Fallon",
             "size": 700,
@@ -843,7 +843,7 @@
             "last": "Fallon"
         },
         {
-            "first": "Jimmy",
+            "first": "Tema",
             "relX": 0.9531250000000001,
             "name": "Jimmy Kimmel",
             "size": 600,
@@ -854,7 +854,7 @@
             "last": "Kimmel"
         },
         {
-            "first": "Joe",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Joe Arpaio",
             "size": 300,
@@ -865,7 +865,7 @@
             "last": "Arpaio"
         },
         {
-            "first": "Joe",
+            "first": "Tema",
             "relX": 0.11458333333333334,
             "name": "Joe Dempsie",
             "size": 100,
@@ -876,7 +876,7 @@
             "last": "Dempsie"
         },
         {
-            "first": "John",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "John Daly",
             "size": 100,
@@ -887,7 +887,7 @@
             "last": "Daly"
         },
         {
-            "first": "John",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "John Kelly",
             "size": 300,
@@ -898,7 +898,7 @@
             "last": "Kelly"
         },
         {
-            "first": "John",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "John Oliver",
             "size": 300,
@@ -909,7 +909,7 @@
             "last": "Oliver"
         },
         {
-            "first": "Jon",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Jon Rahm",
             "size": 200,
@@ -920,7 +920,7 @@
             "last": "Rahm"
         },
         {
-            "first": "Jon",
+            "first": "Tema",
             "relX": 0.11458333333333334,
             "name": "Jon Snow",
             "size": 300,
@@ -931,7 +931,7 @@
             "last": "Snow"
         },
         {
-            "first": "Jonathan",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Jonathan Wilson",
             "size": 200,
@@ -942,7 +942,7 @@
             "last": "Wilson"
         },
         {
-            "first": "Jordan",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Jordan Spieth",
             "size": 700,
@@ -953,7 +953,7 @@
             "last": "Spieth"
         },
         {
-            "first": "Jose",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Jose Mourinho",
             "size": 700,
@@ -966,7 +966,7 @@
             "last": "Mourinho"
         },
         {
-            "first": "Josh",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Josh Gorges",
             "size": 300,
@@ -977,7 +977,7 @@
             "last": "Gorges"
         },
         {
-            "first": "Jurgen",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Jurgen Klopp",
             "size": 200,
@@ -988,7 +988,7 @@
             "last": "Klopp"
         },
         {
-            "first": "Justin",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Justin Thomas",
             "size": 600,
@@ -999,7 +999,7 @@
             "last": "Thomas"
         },
         {
-            "first": "Kenneth",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Kenneth Frazier",
             "size": 400,
@@ -1010,7 +1010,7 @@
             "last": "Frazier"
         },
         {
-            "first": "Kevin",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Kevin Kisner",
             "size": 800,
@@ -1023,7 +1023,7 @@
             "last": "Kisner"
         },
         {
-            "first": "Kevin",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Kevin Plank",
             "size": 400,
@@ -1034,7 +1034,7 @@
             "last": "Plank"
         },
         {
-            "first": "Kim",
+            "first": "Tema",
             "relX": 0.9531250000000001,
             "name": "Kim Jong",
             "size": 700,
@@ -1045,7 +1045,7 @@
             "last": "Jong"
         },
         {
-            "first": "Kit",
+            "first": "Tema",
             "relX": 0.11458333333333334,
             "name": "Kit Harington",
             "size": 200,
@@ -1056,7 +1056,7 @@
             "last": "Harington"
         },
         {
-            "first": "Kyle",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Kyle Okposo",
             "size": 200,
@@ -1067,7 +1067,7 @@
             "last": "Okposo"
         },
         {
-            "first": "Laura",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Laura Muir",
             "size": 200,
@@ -1078,7 +1078,7 @@
             "last": "Muir"
         },
         {
-            "first": "Lebron",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Lebron James",
             "size": 200,
@@ -1089,7 +1089,7 @@
             "last": "James"
         },
         {
-            "first": "Lena",
+            "first": "Tema",
             "relX": 0.890625,
             "name": "Lena Dunham",
             "size": 300,
@@ -1100,7 +1100,7 @@
             "last": "Dunham"
         },
         {
-            "first": "Leslie",
+            "first": "Tema",
             "relX": 0.11458333333333334,
             "name": "Leslie Jones",
             "size": 300,
@@ -1111,7 +1111,7 @@
             "last": "Jones"
         },
         {
-            "first": "Louis",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Louis Oosthuizen",
             "size": 100,
@@ -1122,7 +1122,7 @@
             "last": "Oosthuizen"
         },
         {
-            "first": "Luther",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Luther Strange",
             "size": 300,
@@ -1133,7 +1133,7 @@
             "last": "Strange"
         },
         {
-            "first": "Melania",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Melania Trump",
             "size": 300,
@@ -1144,7 +1144,7 @@
             "last": "Trump"
         },
         {
-            "first": "Michael",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Michael Phelps",
             "size": 100,
@@ -1155,7 +1155,7 @@
             "last": "Phelps"
         },
         {
-            "first": "Michael",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Michael Signer",
             "size": 200,
@@ -1166,7 +1166,7 @@
             "last": "Signer"
         },
         {
-            "first": "Mike",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Mike Harrington",
             "size": 600,
@@ -1177,7 +1177,7 @@
             "last": "Harrington"
         },
         {
-            "first": "Mike",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Mike Pence",
             "size": 600,
@@ -1188,7 +1188,7 @@
             "last": "Pence"
         },
         {
-            "first": "Mitch",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Mitch Mcconnell",
             "size": 700,
@@ -1199,7 +1199,7 @@
             "last": "Mcconnell"
         },
         {
-            "first": "Nelly",
+            "first": "Tema",
             "relX": 0.890625,
             "name": "Nelly Furtado",
             "size": 300,
@@ -1210,7 +1210,7 @@
             "last": "Furtado"
         },
         {
-            "first": "Nemanja",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Nemanja Matic",
             "size": 400,
@@ -1221,7 +1221,7 @@
             "last": "Matic"
         },
         {
-            "first": "Nicolas",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Nicolas Maduro",
             "size": 400,
@@ -1232,7 +1232,7 @@
             "last": "Maduro"
         },
         {
-            "first": "Nikki",
+            "first": "Tema",
             "relX": 0.9531250000000001,
             "name": "Nikki Haley",
             "size": 400,
@@ -1243,7 +1243,7 @@
             "last": "Haley"
         },
         {
-            "first": "Olivier",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Olivier Giroud",
             "size": 300,
@@ -1254,7 +1254,7 @@
             "last": "Giroud"
         },
         {
-            "first": "Paul",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Paul Manafort",
             "size": 300,
@@ -1265,7 +1265,7 @@
             "last": "Manafort"
         },
         {
-            "first": "Pep",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Pep Guardiola",
             "size": 200,
@@ -1276,7 +1276,7 @@
             "last": "Guardiola"
         },
         {
-            "first": "Phil",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Phil Mickelson",
             "size": 300,
@@ -1287,7 +1287,7 @@
             "last": "Mickelson"
         },
         {
-            "first": "Philippe",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Philippe Coutinho",
             "size": 400,
@@ -1298,7 +1298,7 @@
             "last": "Coutinho"
         },
         {
-            "first": "Ramil",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Ramil Guliyev",
             "size": 200,
@@ -1309,7 +1309,7 @@
             "last": "Guliyev"
         },
         {
-            "first": "Rasmus",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Rasmus Ristolainen",
             "size": 200,
@@ -1320,7 +1320,7 @@
             "last": "Ristolainen"
         },
         {
-            "first": "Rex",
+            "first": "Tema",
             "relX": 0.9531250000000001,
             "name": "Rex Tillerson",
             "size": 700,
@@ -1331,7 +1331,7 @@
             "last": "Tillerson"
         },
         {
-            "first": "Richard",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Richard Spencer",
             "size": 300,
@@ -1342,7 +1342,7 @@
             "last": "Spencer"
         },
         {
-            "first": "Rickie",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Rickie Fowler",
             "size": 200,
@@ -1353,7 +1353,7 @@
             "last": "Fowler"
         },
         {
-            "first": "Robert",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Robert Lee",
             "size": 200,
@@ -1364,7 +1364,7 @@
             "last": "Lee"
         },
         {
-            "first": "Robert",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Robert Mueller",
             "size": 300,
@@ -1375,7 +1375,7 @@
             "last": "Mueller"
         },
         {
-            "first": "Robin",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Robin Lehner",
             "size": 200,
@@ -1386,7 +1386,7 @@
             "last": "Lehner"
         },
         {
-            "first": "Roman",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Roman Polanski",
             "size": 100,
@@ -1397,7 +1397,7 @@
             "last": "Polanski"
         },
         {
-            "first": "Romelu",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Romelu Lukaku",
             "size": 500,
@@ -1408,7 +1408,7 @@
             "last": "Lukaku"
         },
         {
-            "first": "Rupert",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Rupert Murdoch",
             "size": 400,
@@ -1419,7 +1419,7 @@
             "last": "Murdoch"
         },
         {
-            "first": "Sam",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Sam Reinhart",
             "size": 400,
@@ -1430,7 +1430,7 @@
             "last": "Reinhart"
         },
         {
-            "first": "Sebastian",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Sebastian Gorka",
             "size": 500,
@@ -1441,7 +1441,7 @@
             "last": "Gorka"
         },
         {
-            "first": "Sergio",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Sergio Aguero",
             "size": 200,
@@ -1452,7 +1452,7 @@
             "last": "Aguero"
         },
         {
-            "first": "Sergio",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Sergio Garcia",
             "size": 300,
@@ -1463,7 +1463,7 @@
             "last": "Garcia"
         },
         {
-            "first": "Seth",
+            "first": "Tema",
             "relX": 0.11458333333333334,
             "name": "Seth Meyers",
             "size": 800,
@@ -1476,7 +1476,7 @@
             "last": "Meyers"
         },
         {
-            "first": "Sheriff",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Sheriff Joe",
             "size": 300,
@@ -1487,7 +1487,7 @@
             "last": "Joe"
         },
         {
-            "first": "Stephen",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Stephen Colbert",
             "size": 800,
@@ -1498,7 +1498,7 @@
             "last": "Colbert"
         },
         {
-            "first": "Steve",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Steve Bannon",
             "size": 800,
@@ -1509,7 +1509,7 @@
             "last": "Bannon"
         },
         {
-            "first": "Steve",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Steve Mounie",
             "size": 400,
@@ -1520,7 +1520,7 @@
             "last": "Mounie"
         },
         {
-            "first": "Susan",
+            "first": "Tema",
             "relX": 0.9531250000000001,
             "name": "Susan Rice",
             "size": 200,
@@ -1531,7 +1531,7 @@
             "last": "Rice"
         },
         {
-            "first": "Taylor",
+            "first": "Tema",
             "relX": 0.890625,
             "name": "Taylor Swift",
             "size": 500,
@@ -1544,7 +1544,7 @@
             "last": "Swift"
         },
         {
-            "first": "Terry",
+            "first": "Tema",
             "relX": 0.19270833333333334,
             "name": "Terry Mcauliffe",
             "size": 200,
@@ -1555,7 +1555,7 @@
             "last": "Mcauliffe"
         },
         {
-            "first": "Thorbjorn",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Thorbjorn Olesen",
             "size": 300,
@@ -1566,7 +1566,7 @@
             "last": "Olesen"
         },
         {
-            "first": "Tiger",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Tiger Woods",
             "size": 700,
@@ -1577,7 +1577,7 @@
             "last": "Woods"
         },
         {
-            "first": "Tim",
+            "first": "Tema",
             "relX": 0.7447916666666667,
             "name": "Tim Murray",
             "size": 600,
@@ -1588,7 +1588,7 @@
             "last": "Murray"
         },
         {
-            "first": "Tom",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Tom Bosworth",
             "size": 100,
@@ -1599,7 +1599,7 @@
             "last": "Bosworth"
         },
         {
-            "first": "Usain",
+            "first": "Tema",
             "relX": 0.8229166666666666,
             "name": "Usain Bolt",
             "size": 200,
@@ -1610,7 +1610,7 @@
             "last": "Bolt"
         },
         {
-            "first": "Vladimir",
+            "first": "Tema",
             "relX": 0.46875,
             "name": "Vladimir Putin",
             "size": 200,
@@ -1621,7 +1621,7 @@
             "last": "Putin"
         },
         {
-            "first": "Wayne",
+            "first": "Tema",
             "relX": 0.036458333333333336,
             "name": "Wayne Rooney",
             "size": 400,
@@ -1632,7 +1632,7 @@
             "last": "Rooney"
         },
         {
-            "first": "Zach",
+            "first": "Tema",
             "relX": 0.9947916666666667,
             "name": "Zach Randolph",
             "size": 100,
