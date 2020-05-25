@@ -113,12 +113,12 @@
     "data": [
         {
             "name": "node-data",
-            "url": "./miserables.json",
+            "url": "https://filosinapsis.github.io/Filosinapsis/vega_test_3/miserables.json",
             "format": { "type": "json", "property": "nodes" }
         },
         {
             "name": "link-data",
-            "url": "./miserables.json",
+            "url": "https://filosinapsis.github.io/Filosinapsis/vega_test_3/miserables.json",
             "format": { "type": "json", "property": "links" }
         }
     ],
@@ -258,7 +258,7 @@
                             "test": "legendHover.datum.index===datum.datum.group",
                             "value": 1
                         },
-                        { "value": 0.3 }
+                        { "value": 1 }
                     ]
                 }
             }
@@ -276,7 +276,8 @@
                     "baseline": { "value": "middle" },
                     "text": { "field": "datum.first" },
                     "fontSize": { "field": "datum.fontSize" },
-                    "opacity": { "value": 1 }
+                    "opacity": { "value": 1 },
+                    "fill": {"value": "white" }
                 }
             }
         },
@@ -290,7 +291,7 @@
                     "y": { "signal": "tooltip.y" },
                     "baseline": { "value": "middle" },
                     "align": { "value": "center" },
-                    "url": { "signal": "tooltip.datum.thumb" },
+                    "url": { "signal": "null" },
                     "fontSize": { "value": 25 },
                     "opacity": [
                         { "test": "tooltip.datum.name", "value": 1 },
