@@ -5264,6 +5264,19 @@ var Layers = Control.extend({
 		    removedLayers = [];
 
 		this._handlingClick = true;
+		// alert("world");
+		// LeafletJS
+
+		let markers = document.getElementsByClassName('leaflet-marker-icon');
+		let seconds = 50;
+
+		// debugger;
+		for (let index = 0; index < markers.length; index++) {
+			setTimeout(() => {
+				markers[index].click();
+			}, index * seconds);
+		}
+
 
 		for (var i = inputs.length - 1; i >= 0; i--) {
 			input = inputs[i];

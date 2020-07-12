@@ -1,6 +1,21 @@
 // JavaScript Document auto !important
 
-let PMap = L.map('PMap', { crs: L.CRS.Simple }).setView([89, 100], 0);
+var baseLayers = {};
+
+let neurons_A = L.layerGroup();
+let neurons_B = L.layerGroup();
+
+var overlays = {
+    Grupo_A: neurons_A,
+    Grupo_B: neurons_B,
+};
+
+let PMap = L.map('PMap', {
+    crs: L.CRS.Simple,
+    layers: [neurons_A, neurons_B],
+}).setView([89, 100], 0);
+
+L.control.layers(baseLayers, overlays).addTo(PMap);
 
 var searchLayer = L.geoJson().addTo(PMap);
 
@@ -104,13 +119,23 @@ for (let i = 0; i < Data.length; i++) {
     marker_size = Data[i].size;
     marker_name = Data[i].name;
 
-    L.marker(
-        coordinates_yx(Data[i]['coordinates_y'], Data[i]['coordinates_x']),
-        { icon: get_icon_color_and_size(marker_color, marker_size) }
-    )
-        .addTo(PMap)
-        .on('dblclick', onDoubleClick)
-        .bindPopup(marker_name);
+    if (i % 2 == 0) {
+        L.marker(
+            coordinates_yx(Data[i]['coordinates_y'], Data[i]['coordinates_x']),
+            { icon: get_icon_color_and_size(marker_color, marker_size) }
+        )
+            .addTo(neurons_A)
+            .on('dblclick', onDoubleClick)
+            .bindPopup(marker_name);
+    } else {
+        L.marker(
+            coordinates_yx(Data[i]['coordinates_y'], Data[i]['coordinates_x']),
+            { icon: get_icon_color_and_size(marker_color, marker_size) }
+        )
+            .addTo(neurons_B)
+            .on('dblclick', onDoubleClick)
+            .bindPopup(marker_name);
+    }
 }
 
 let polyline;
