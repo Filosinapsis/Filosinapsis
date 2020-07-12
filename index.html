@@ -7,14 +7,87 @@
         <link rel="stylesheet" href="assets/leaflet/leaflet.css" />
         <link rel="stylesheet" href="assets/css/platform.css" />
         <link rel="stylesheet" href="assets/css/changecolor.css" />
+        <link rel="stylesheet" href="assets/css/modal.css" />
         <title>Filosinapsis</title>
     </head>
     <body>
-        <div id="PMap" translate="no" class="colormap" style="background-color: black; background-image: url('assets/images/background/galaxy.jpg'); background-size: cover; background-position: center;"></div>
+        <div
+            id="PMap"
+            translate="no"
+            class="colormap"
+            style="
+                background-color: black;
+                background-image: url('assets/images/background/galaxy.jpg');
+                background-size: cover;
+                background-position: center;
+            "
+        ></div>
+
+        <a href="#modal_video" id="video_modal_link"></a>
+
+        <div id="modal_video" class="modal">
+            <div class="modal_content">
+                <a href="#" style="text-decoration: none;"
+                    >⬅️ Volver al mapa neuronal</a
+                >
+                <h1 id="modal_title"></h1>
+                <p id="modal_description"></p>
+                <hr />
+                <div class="video">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/KvLfGiDm_CE"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                    <br />
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/KvLfGiDm_CE"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                    <br />
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/KvLfGiDm_CE"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                    <br />
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/KvLfGiDm_CE"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                    <br />
+                </div>
+            </div>
+        </div>
+
         <div class="title" id="title"></div>
         <div id="bg-selector">
-            <div class="color universe" data-value="assets/images/background/galaxy.jpg" data-image="true" title="Universo"></div>
-            <div class="color night" data-value="assets/images/background/night.jpg" data-image="true" title="Noche"></div>
+            <div
+                class="color universe"
+                data-value="assets/images/background/galaxy.jpg"
+                data-image="true"
+                title="Universo"
+            ></div>
+            <div
+                class="color night"
+                data-value="assets/images/background/night.jpg"
+                data-image="true"
+                title="Noche"
+            ></div>
             <div class="color black" data-value="#000" title="Oscuro"></div>
             <div class="color white" data-value="#FBFBFB" title="Claro"></div>
             <div

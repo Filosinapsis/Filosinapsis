@@ -144,3 +144,4 @@ const Data = [
         "size": "small"
     }
 ];
+console.log({ Data })
