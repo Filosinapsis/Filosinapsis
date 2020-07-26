@@ -9875,7 +9875,7 @@ var Popup = DivOverlay.extend({
 	_initLayout: function () {
 		var prefix = 'leaflet-popup',
 		    container = this._container = create$1('div',
-			prefix + ' ' + (this.options.className || '') +
+			prefix + ' modal-video ' + (this.options.className || '') +
 			' leaflet-zoom-animated');
 
 		var wrapper = this._wrapper = create$1('div', prefix + '-content-wrapper', container);
@@ -10082,7 +10082,9 @@ Layer.include({
 			if (!this._popup || options) {
 				this._popup = new Popup(options, this);
 			}
-			this._popup.setContent(content);
+			// TODO: Write a preprocessor to transform content into the neuron name, with a spoiler button to get the video. HINT: Maybe using [Regex]
+
+			this._popup.setContent(content + ' <br/><div id=\'' + content + '\' style="display: none"><iframe src="https://www.youtube.com/embed/SYJDtSchoyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><button onclick="show_video(\'' +  content + '\')" id="show_video--' + content + '" class="show_video">Ver vídeo</button>');
 		}
 
 		if (!this._popupHandlersAdded) {
