@@ -5264,18 +5264,20 @@ var Layers = Control.extend({
 		    removedLayers = [];
 
 		this._handlingClick = true;
+
+		// TODO: Delete junk comments
 		// alert("world");
 		// LeafletJS
 
 		let markers = document.getElementsByClassName('leaflet-marker-icon');
 		let seconds = 50;
 
-		// debugger;
-		for (let index = 0; index < markers.length; index++) {
-			setTimeout(() => {
-				markers[index].click();
-			}, index * seconds);
-		}
+		debugger;
+		// for (let index = 0; index < markers.length; index++) {
+		// 	setTimeout(() => {
+		// 		markers[index].click();
+		// 	}, index * seconds);
+		// }
 
 
 		for (var i = inputs.length - 1; i >= 0; i--) {
@@ -7167,7 +7169,7 @@ var Icon = Class.extend({
 		    anchor = toPoint(name === 'shadow' && options.shadowAnchor || options.iconAnchor ||
 		            size && size.divideBy(2, true));
 
-		img.className = 'leaflet-marker-' + name + ' ' + (options.className || '');
+		img.className = 'leaflet-marker-' + name + ' ' + (options.className || '') + ' iconsdiv';
 
 		if (anchor) {
 			img.style.marginLeft = (-anchor.x) + 'px';

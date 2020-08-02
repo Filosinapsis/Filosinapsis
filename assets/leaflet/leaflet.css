@@ -262,7 +262,7 @@
 .leaflet-marker-icon {
     border-radius: 100%;
     outline: none;
-    transition: 2s cubic-bezier(.46,1.2,.61,-0.11);
+    transition: 1s ease-in;
 }
 
 .leaflet-marker-icon:hover {
