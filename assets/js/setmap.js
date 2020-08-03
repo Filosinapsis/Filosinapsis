@@ -15,6 +15,61 @@ let PMap = L.map('PMap', {
     layers: [neurons_A, neurons_B],
 }).setView([89, 100], 0);
 
+PMap.on('zoomend', function () {
+    let current_zoom = PMap.getZoom();
+
+    let newzoom;
+    if (current_zoom == 0) {
+        newzoom = '' + 90 + 'px';
+        $('#PMap .iconsdiv').css({
+            width: newzoom,
+            height: newzoom,
+            marginLeft: '-45px',
+            marginTop: '-45px',
+        });
+    } else if (current_zoom == -1) {
+        newzoom = '' + 60 + 'px';
+        $('#PMap .iconsdiv').css({
+            width: newzoom,
+            height: newzoom,
+            marginLeft: '-32px',
+            marginTop: '-32px',
+        });
+    } else if (current_zoom == -2) {
+        newzoom = '' + 45 + 'px';
+        $('#PMap .iconsdiv').css({
+            width: newzoom,
+            height: newzoom,
+            marginLeft: '-24px',
+            marginTop: '-24px',
+        });
+    } else if (current_zoom == -3) {
+        newzoom = '' + 20 + 'px';
+        $('#PMap .iconsdiv').css({
+            width: newzoom,
+            height: newzoom,
+            marginLeft: '-10px',
+            marginTop: '-10px',
+        });
+    } else if (current_zoom == -4) {
+        newzoom = '' + 15 + 'px';
+        $('#PMap .iconsdiv').css({
+            width: newzoom,
+            height: newzoom,
+            marginLeft: '-8px',
+            marginTop: '-8px',
+        });
+    } else if (current_zoom == -5) {
+        newzoom = '' + 6 + 'px';
+        $('#PMap .iconsdiv').css({
+            width: newzoom,
+            height: newzoom,
+            marginLeft: '-3px',
+            marginTop: '-3px',
+        });
+    }
+});
+
 L.control.layers(baseLayers, overlays).addTo(PMap);
 
 var searchLayer = L.geoJson().addTo(PMap);
