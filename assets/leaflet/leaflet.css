@@ -273,14 +273,14 @@
 .leaflet-popup {
     transition-property: margin-bottom;
     transition-duration: 300ms;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .leaflet-pane:hover
 .leaflet-popup-content-wrapper {
     transition-property: background-color, color;
     transition-duration: 1s;
-    background-color: rgba(0, 0, 0, 0.9);
+    /* background-color: rgba(0, 0, 0, 0.9); */
     color: white;
 }
 
@@ -553,8 +553,8 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip {
-    background: rgba(0, 0, 0, 0.55);
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.9);
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black,
+    1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     color: white;
 }
 .leaflet-container a.leaflet-popup-close-button {
