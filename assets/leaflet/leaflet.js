@@ -9757,6 +9757,7 @@ var Popup = DivOverlay.extend({
 		// @option autoPan: Boolean = true
 		// Set it to `false` if you don't want the map to do panning animation
 		// to fit the opened popup.
+		// TODO: Remove the pan animation
 		autoPan: true,
 
 		// @option autoPanPaddingTopLeft: Point = null
@@ -10085,8 +10086,9 @@ Layer.include({
 				this._popup = new Popup(options, this);
 			}
 			// TODO: Write a preprocessor to transform content into the neuron name, with a spoiler button to get the video. HINT: Maybe using [Regex]
+			// <div id=\'' + content + '\' style="display: none"><iframe src="https://www.youtube.com/embed/SYJDtSchoyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> <button onclick="show_video(\'' +  content + '\')" id="show_video--' + content + '" class="show_video">Ver vídeo</button>
 
-			this._popup.setContent(content + ' <br/><div id=\'' + content + '\' style="display: none"><iframe src="https://www.youtube.com/embed/SYJDtSchoyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div><button onclick="show_video(\'' +  content + '\')" id="show_video--' + content + '" class="show_video">Ver vídeo</button>');
+			this._popup.setContent(content);
 		}
 
 		if (!this._popupHandlersAdded) {
