@@ -262,7 +262,7 @@
 .leaflet-marker-icon {
     border-radius: 100%;
     outline: none;
-    transition: 1s ease-in;
+    transition: 0.6s ease-in;
 }
 
 .leaflet-marker-icon:hover {
@@ -525,6 +525,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .leaflet-popup-content {
     margin: 0.6rem 0.6rem;
     line-height: 1.4;
+    transition: display 0.3s, font-size 0.3s;
 }
 .leaflet-popup-content p {
     margin: 12px 0;
