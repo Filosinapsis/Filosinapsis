@@ -164,7 +164,7 @@ PMap.on('zoomend', function () {
         }
 
         for (let neuronIndex in Data) {
-            changeSizeText(neuronIndex, 1.3);
+            changeSizeText(neuronIndex, 1.4);
         }
     } else if (currentZoom == 3) {
         for (let neuronIndex in Data) {
