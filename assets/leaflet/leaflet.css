@@ -522,10 +522,11 @@ svg.leaflet-image-layer.leaflet-interactive path {
     font-size: 1.1rem;
     width: 140px;
 }
+
 .leaflet-popup-content {
     margin: 0.6rem 0.6rem;
     line-height: 1.4;
-    transition: display 0.3s, font-size 0.3s;
+    transition: display 0.3s, font-size 0.3s, opacity 1s;
 }
 .leaflet-popup-content p {
     margin: 12px 0;

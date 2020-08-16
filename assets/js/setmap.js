@@ -295,7 +295,7 @@ PMap.on('zoomend', function () {
             changeSizeText(neuronIndex, 0.3);
         }
 
-        $('.leaflet-popup-content').css({ display: 'block' });
+        $('.leaflet-popup-content').css({ opacity: '1' });
     } else if (currentZoom == -5) {
         for (let neuronIndex in Data) {
             let currentNeuron = getNeuronBy(neuronIndex);
@@ -309,7 +309,7 @@ PMap.on('zoomend', function () {
             }
         }
 
-        $('.leaflet-popup-content').css({ display: 'none' });
+        $('.leaflet-popup-content').css({ opacity: '0' });
     }
 });
 
