@@ -301,7 +301,7 @@ PMap.on('zoomend', function () {
             let currentNeuron = getNeuronBy(neuronIndex);
 
             if (currentNeuron.classList.contains('marker--big')) {
-                changeNeuronSizeByType('big', 20);
+                changeNeuronSizeByType('big', 30);
             } else if (currentNeuron.classList.contains('marker--medium')) {
                 changeNeuronSizeByType('medium', 10);
             } else if (currentNeuron.classList.contains('marker--small')) {
@@ -313,7 +313,8 @@ PMap.on('zoomend', function () {
     }
 });
 
-L.control.layers(baseLayers, overlays).addTo(PMap);
+// FIXME: Active layers for production version
+// L.control.layers(baseLayers, overlays).addTo(PMap);
 
 var searchLayer = L.geoJson().addTo(PMap);
 
